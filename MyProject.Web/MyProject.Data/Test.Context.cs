@@ -26,5 +26,6 @@ namespace MyProject.Data
         }
     
         public virtual DbSet<Account> Accounts { get; set; }
+        public virtual DbSet<User> Users { get; set; }
     }
 }

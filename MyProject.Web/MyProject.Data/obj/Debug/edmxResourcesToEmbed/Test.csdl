@@ -7,8 +7,37 @@
     <Property Name="AccountID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
     <Property Name="Password_" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="TestDatabaseModel.FK_Users_Accounts" FromRole="Account" ToRole="User" />
   </EntityType>
   <EntityContainer Name="TestDatabaseEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Accounts" EntityType="Self.Account" />
+    <EntitySet Name="Users" EntityType="TestDatabaseModel.User" />
+    <AssociationSet Name="FK_Users_Accounts" Association="TestDatabaseModel.FK_Users_Accounts">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <Property Name="AccountID" Type="Int32" />
+    <NavigationProperty Name="Account" Relationship="TestDatabaseModel.FK_Users_Accounts" FromRole="User" ToRole="Account" />
+  </EntityType>
+  <Association Name="FK_Users_Accounts">
+    <End Type="TestDatabaseModel.Account" Role="Account" Multiplicity="0..1" />
+    <End Type="TestDatabaseModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="AccountID" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="AccountID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

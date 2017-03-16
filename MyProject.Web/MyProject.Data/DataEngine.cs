@@ -7,9 +7,13 @@ using System.Data.Entity;
 
 namespace MyProject.Data
 {
-    public static class DataEngine
+    public class DataEngine
     {
-        public static Account GetAccount(int AccountID)
+
+        #region Account Methods
+
+        #region GetAccount
+        public  Account GetAccount(int AccountID)
         {
             Account returnAccount = new Account();
 
@@ -24,20 +28,48 @@ namespace MyProject.Data
                     returnAccount.Email = Account.Email;
                     returnAccount.Password_ = Account.Password_;
 
-
                 }
-            
-            
-            
+           
             }
-
 
             return returnAccount;
 
+        }
+        #endregion
+
+        #region GetAllAccounts
+        public List<Account> GetAllAccounts()
+        {
+            
+            using (var db = new TestDatabaseEntities())
+            {
+
+                List<Account> Accounts = db.Accounts.Distinct().ToList();
+
+
+                return Accounts;
+            }
 
         }
+        #endregion
 
+        #region AddAccount
+        public bool AddAccount(Account NewAccount)
+        {
+            bool returnState = false;
 
+            using (var db = new TestDatabaseEntities())
+            {
+                db.Accounts.Add(NewAccount);
+                db.SaveChanges();
+                returnState = true;
+            }
+
+            return returnState;
+        }
+        #endregion
+
+        #endregion
 
     }
 }

@@ -68,9 +68,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Test.edmx</DependentUpon>
     </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>Test.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
     <EntityDeploy Include="Test.edmx">
       <Generator>EntityModelCodeGenerator</Generator>

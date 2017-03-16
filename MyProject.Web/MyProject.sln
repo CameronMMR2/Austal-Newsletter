@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.Data", "MyProject
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.POCO", "MyProject.POCO\MyProject.POCO.csproj", "{5D43025F-D361-49EC-B58A-3384F01B7686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{5D715670-2DA5-4F47-A48E-CDE121B8A72B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.WinForm", "WindowsFormsApplication1\MyProject.WinForm.csproj", "{5D715670-2DA5-4F47-A48E-CDE121B8A72B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,12 @@
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\bin\Debug\MyProject.Business.dll.config
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\bin\Debug\MyProject.Business.dll
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\bin\Debug\MyProject.Business.pdb
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\bin\Debug\EntityFramework.dll
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\bin\Debug\MyProject.Data.dll
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\bin\Debug\MyProject.Data.pdb
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\bin\Debug\EntityFramework.xml
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\obj\Debug\MyProject.Business.csprojResolveAssemblyReference.cache
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\obj\Debug\MyProject.Business.dll
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\MyProject.Business\obj\Debug\MyProject.Business.pdb

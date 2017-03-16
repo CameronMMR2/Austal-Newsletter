@@ -1,0 +1,17 @@
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\bin\Debug\MyProject.Business.dll
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\bin\Debug\MyProject.Data.dll
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\bin\Debug\MyProject.Business.pdb
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\bin\Debug\MyProject.Data.pdb
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\obj\Debug\MyProject.WinForm.csprojResolveAssemblyReference.cache
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\obj\Debug\MyProject.WinForm.csproj.GenerateResource.Cache
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\joey.gill\Documents\Visual Studio 2013\Projects\MyProject.Web\WindowsFormsApplication1\obj\Debug\MyProject.WinForm.OpeningForm.resources
